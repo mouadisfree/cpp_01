@@ -1,18 +1,9 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   HumanB.cpp                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mokatfi <mokatfi@student.1337.ma>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/02 09:47:11 by mokatfi           #+#    #+#             */
-/*   Updated: 2025/12/02 10:16:11 by mokatfi          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "HumanB.hpp"
 
-HumanB::HumanB(const std::string &name) : name(name), weapon(NULL) {}
+HumanB::HumanB(const std::string &name) {
+    this->name = name;
+    this->weapon = NULL;
+}
 
 HumanB::~HumanB() {}
 
